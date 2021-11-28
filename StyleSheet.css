@@ -1,17 +1,60 @@
-﻿#header {
+﻿html{
+    scroll-behavior:smooth;
+}
+
+#header {
     color: black;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    background-color: rgba(255,255,255,.7);
+    height: 50px;
+}
+
+#about{
     margin: 15px;
+    padding: 5px;
+    
+}
+
+#info {
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    text-align: left;
+    vertical-align: central;
+    width:40%;
+    margin-right: 150px;
+    margin-top:50px;
+    height: 300px;
+    font-size: 19px;
+}
+
+#spheres{
+    margin-left: 35px;
+}
+
+img{
+    width:35%;
+    height: auto;
+    margin-top: 20px;
+}
+
+h1{
+    margin:0;
 }
 
 body {
+    margin-left: 0;
+    margin-right:0;
+    margin-top: 0;
    
 }
 
 #name{
     font-size: 20px;
     float: left;
-    margin-top:-20px;
 }
 
 #navigation{
