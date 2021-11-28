@@ -21,40 +21,36 @@
 
         <div id="navigation">
             <ul class="nav">
-                <li><a target="_blank" href="#about">about</a></li>
-                <li><a target="_blank" href="#resume">resume</a></li>
-                <li><a target="_blank" href="#contact">contact</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#resume">resume</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </div>
+
     </div>
 
-    <hr style="border-width: .1px; color:lightgray; width:100%; margin:0;" ;>
 
     <div id="about">
-        <img id="spheres" src="spheres.jpg" alt="Anthony spheres"/>
+        <img id="spheres" src="spheres.jpg" alt="Anthony spheres" />
 
         <div id="info">
             <h2>Howdy, I'm Anthony!</h2>
-            <p>I'm currently finishing up my final semester at University of Oklahoma. Following graduation,
-            I will start working full time at Amazon Web Services as an Associate Solutions Architect. </p>
+            <p>
+                I'm currently finishing up my final semester at University of Oklahoma. Following graduation,
+                I will begin working full time at Amazon Web Services as an Associate Solutions Architect.
+                I have a passion for technology with interests in Cloud Computing and Blockchain.
+            </p>
         </div>
     </div>
 
+    <div id="projects">
+        <h2>Projects</h2>
 
-    <script>
-        window.onscroll = function() {myFunction()};
+    </div>
 
-        var header = document.getElementById("header");
-        var sticky = header.offsetTop;
 
-        function myFunction() {
-          if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-          } else {
-            header.classList.remove("sticky");
-          }
-        }
-    </script>
+
 
 </body>
 </html>

@@ -2,36 +2,25 @@
     scroll-behavior:smooth;
 }
 
-.content {
-    padding: 16px;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + .content {
-    padding-top: 102px;
-}
 
 #header {
     color: black;
     font-family: 'Raleway', sans-serif;
-    margin-top: 15px;
-    margin-left: 25px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-    background-color: rgba(255,255,255,.7);
-    height: 50px;
+    padding: 1em;
+    margin-left: 1.1em;
+    margin-right: 1.1em;
+    background-color: rgba(255,255,255,.9);
+    height: 40px;
+    position: sticky;
+    top: 0;
 }
 
 #about{
     margin: 15px;
-    padding: 5px;
+    padding:5px 5px 5px 5px;
     
 }
+
 
 #info {
     font-family: 'Raleway', sans-serif;
@@ -52,7 +41,18 @@
 img{
     width:35%;
     height: auto;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+#projects {
+    margin: 10px;
+    border: 40px;
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#resume{
+    height: 200px;
 }
 
 h1{
