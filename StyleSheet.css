@@ -45,10 +45,18 @@ img{
 }
 
 #projects {
-    margin: 10px;
+    margin: 15px;
     border: 40px;
     padding: 30px;
     font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 1.2em
+}
+
+#aws{
+    text-align: center;
+    margin:1em;
+    text-decoration:underline;
 }
 
 #resume{
@@ -57,6 +65,10 @@ img{
 
 h1{
     margin:0;
+}
+
+#project_text{
+    margin: 1.3em 1.2em 1.2em 0em;
 }
 
 body {
@@ -74,6 +86,26 @@ body {
 #navigation{
     font-size: 18px;
     float: right;
+}
+
+#aurora{
+    margin: 5px 25px 25px 40px;
+    margin:
+    border: 40px;
+    padding: 40px;
+    border-top:0;
+    padding-top:0;
+    width: 50%;
+    height: auto;
+}
+
+#description{
+    float: right;
+    width: 30%;
+    margin: 30px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
+    border: 15px;
+    vertical-align: center;
 }
 
 ul {
