@@ -18,6 +18,7 @@
 #about{
     margin: 15px;
     padding:5px 5px 5px 5px;
+    font-size: 1em;
     
 }
 
@@ -79,7 +80,7 @@ body {
 }
 
 #name{
-    font-size: 20px;
+    font-size: 1.2em;
     float: left;
 }
 
@@ -102,8 +103,8 @@ body {
 #description{
     float: right;
     width: 30%;
-    margin: 30px 10px 10px 10px;
-    padding: 30px 10px 10px 10px;
+    margin: 30px 40px 10px 10px;
+    padding: 30px 40px 10px 10px;
     border: 15px;
     vertical-align: center;
 }
