@@ -32,8 +32,8 @@ body {
     float: right;
     text-align: left;
     vertical-align: central;
-    width:50%;
-    margin-right: 250px;
+    width:40%;
+    margin-right: 100px;
     margin-top:50px;
     height: 600px;
     font-size: 19px;
@@ -135,7 +135,7 @@ body {
 
 .personalimg {
     width: auto;
-    height: 12.2em;
+    height: 12.8em;
     display: inline;
     margin-left: auto;
     margin-right: auto;
