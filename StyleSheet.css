@@ -131,13 +131,10 @@ body {
 
 }
 
-#personalpics{
-    text-align: center;
-}
 
 .personalimg {
     width: auto;
-    height: 12.8em;
+    height: 13em;
     display: inline;
     margin-left: auto;
     margin-right: auto;
