@@ -131,7 +131,9 @@ body {
 
 }
 
-
+#personalpics{
+    text-align: center;
+}
 
 .personalimg {
     width: auto;
