@@ -108,7 +108,6 @@ body {
 
 #aurora{
     margin: 5px 25px 25px 40px;
-    margin:
     border: 40px;
     padding: 40px;
     border-top:0;
@@ -136,7 +135,7 @@ body {
 
 .personalimg {
     width: auto;
-    height: 12.8em;
+    height: 12.2em;
     display: inline;
     margin-left: auto;
     margin-right: auto;
