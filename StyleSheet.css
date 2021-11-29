@@ -2,6 +2,10 @@
     scroll-behavior:smooth;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 
 #header {
     color: black;
@@ -72,6 +76,19 @@ h1{
     margin: 1.3em 1.2em 1.2em 0em;
 }
 
+#resume {
+    margin: 15px;
+    border: 40px;
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 1.2em
+}
+
+#resume_text {
+    margin: 1.3em 1.2em 1.2em 0em;
+}
+
 body {
     margin-left: 0;
     margin-right:0;
@@ -98,6 +115,24 @@ body {
     padding-top:0;
     width: 50%;
     height: auto;
+}
+
+#certs{
+    width:fit-content;
+    text-align:center;
+}
+
+.certimg{
+    width: 10%;
+    height:auto;
+    display: inline;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+#cloudprac{
+    
 }
 
 #description{
